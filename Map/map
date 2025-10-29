@@ -1,0 +1,10 @@
+product = { "name" : "Milk" , "quantity":5 };
+info product;
+
+product = {"name" : "Milk", "quantity": 5 };
+product.put( "price" , 500);
+info product;
+
+product = {"name" : "Milk", "quantity": 5, "price": 500 };
+product.remove("quantity");
+info  product;
