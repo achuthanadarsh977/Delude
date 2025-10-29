@@ -1,0 +1,27 @@
+product_quantity = 5;
+if (product_quantity >= 1)
+{
+	info product_quantity;
+}
+
+
+product_quantity = 0;
+if (product_quantity > 0)
+{
+	info "Available";
+}
+else
+{
+	info "Not Available";
+}
+
+
+product_quantity = 0;
+if ( product_quantity > 0  )
+{
+	info "Available";
+}
+else if (product_quantity = 0)
+{
+	info "Not Available";
+}
