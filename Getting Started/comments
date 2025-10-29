@@ -1,0 +1,4 @@
+//product_price = 85;
+
+product_price = 500;
+info product_price;
