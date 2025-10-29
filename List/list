@@ -1,0 +1,28 @@
+products = {"Milk","Bread"};
+info products;
+
+products = { "Milk", "Bread" };
+products.add("Butter");
+
+products = {"Milk", "Bread", "Butter"};
+products.remove(0);
+info products;
+
+
+products = {"Milk", "Bread", "Butter"};
+products.removeElement("Milk");
+info products;
+
+product_names = { "Milk", "Butter", "Bread"};
+for each product_name in product_names{
+	if (product_name === "Bread") 
+    {
+		info "yes";
+    }
+	
+	else 
+    {
+		info "no" ;
+    }
+}
+
