@@ -1,0 +1,5 @@
+product_name = "Milk Powder";
+
+info product_name.length();
+
+11
